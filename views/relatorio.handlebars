@@ -1,0 +1,13 @@
+<h1>Relatorio</h1>
+
+{{#each user}}
+
+<tr>
+    <td>{{dataValues.login}}</td>
+    <td>{{dataValues.cpf}}</td>
+    <td><a href="/deletar/{{dataValues.id}}">Deletar</a></td>
+    </tr>
+
+
+<hr>
+{{/each}}
